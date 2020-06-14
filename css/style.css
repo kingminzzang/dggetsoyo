@@ -1,0 +1,82 @@
+html{font-family: 'Nanum Myeongjo', serif;, box-sizing: border-box; scroll-behavior: smooth;}
+		body,h1,h2,p,div,ul,li{margin: 0; padding: 0;}
+		body 
+		header {background: url("../img/star.gif"), -webkit-gradient(linear, left top, left bottom, from(#47018D), to(#100719)); position:relative; z-index:-1;}
+		audio {background: #9C9A9E; border: 2px groove #ababab;}
+
+		nav {margin:auto; padding-top: 20px; display:block; height: 60px; width: 150px;}
+		nav ul { }
+		nav ul li {list-style-type: none; margin: 15px;background: #9C9A9E; border: 2px groove #ababab;}
+		nav ul li a{text-decoration: none; line-height: 20px;text-align: center;  color: white; font-family:'Sriracha', cursive; font-size: 1em; 
+			text-decoration: underline;}
+		nav ul li a:hover{background: #0206FD; color: white; transition: all 0.5s border: 2px outset #0206FD; text-decoration: underline}
+		p{display line-height: 80px;}
+
+
+		.flexbox{display: flex;}
+		.flexinline{display: inline-flex;}
+		.row{width:1000px; margin: auto;z-index: 2; position: relative;}
+			.row div{padding: 10px;}
+
+			.text-center{text-align: center;}
+			.titlefont{display: block; font-family:'Sriracha', cursive; font-size: 4em; padding-top: 10px;}
+			.subtitlefont{font-family: 'Dancing Script', cursive; font-size: 1.5em;}
+			.subtitlefont2{font-family: 'Dancing Script', cursive; font-size: 3em;}
+			.subtitlefont3{font-family: 'Dancing Script',  cursive; font-weight:400; font-size: 1.5em; line-height: 4em;}
+			.subtitlefont4{font-weight:400; font-size: 1.5em; line-height: 4em;}
+			.text_border {text-shadow: 0 0 4px black;}
+			.text_border1 {text-shadow: 0 0 8px white;}
+			.text_border2 {text-shadow: 0 0 15px white;}
+			.text_border-white {text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;}
+			.padding30{ padding-top:30px;}
+			.padding100{ padding-top:100px;}
+	
+
+			.col-1{width: 16.6%;}
+			.col-2{width: 33.33%;}
+			.col-3{width: 50%;}
+			.col-4{width: 66.6%;}
+			.col-5{width: 83.32%;}
+			.col-6{width: 100%;}
+
+			.img800{display: block; width:100%; margin: auto; padding: 0;}
+			.img800{display: block; width:100%; margin: auto; padding: 0;}
+			.imgif{display: inline-block; width:250px; margin: auto; padding: 0;}
+			.imgif2{display: inline-block; width:400px; margin: auto; padding: 0; position: absolute; right: 50px; }
+			.imgif3{display: block; width:90px; position: absolute; left: 300px;}
+			.imgif4{display: block; width:90px; position: absolute; right: 300px;}
+			.imgif5{display: block; width:90px; position: absolute; left: 200px;}
+			.imgif6{display: block; width:90px; position: absolute; right: 200px;}
+
+			.text-white{color: white;}
+
+			.h-100{height: 100px;}
+			.h-200{height: 200px;}
+			.h-400{height: 400px;}
+			.h-600{height: 600px;}
+			.h-800{height: 800px;}
+			.titledesign {background: linear-gradient(to right, #221086, #C013E8);
+	 				 -webkit-background-clip: text;
+	  					-webkit-text-fill-color: transparent;}
+	  		.titledesign2 {background: linear-gradient(to right, #F901E8, #0069FC);
+	 				 -webkit-background-clip: text;
+	  					-webkit-text-fill-color: transparent;}
+	  		.abs{width:300px;height: 100px; position: absolute; left: calc(50% - 150px); z-index: 2}
+	  		.abs2{width:400px;height: 100px; position: absolute; left: calc(50% - 73px); z-index: 2}
+			.abs3{width:500px;height: 100px; position: absolute; left: calc(50% - 166px); z-index: 2}
+
+	  		.absleft{width:300px;height: 100px; position: absolute; left:0; z-index: 3}
+	  		.absright{width:50%;height: 50%; position: absolute; right:0; z-index: 3}
+	  		.abu{width:300px;height: 100px; position: absolute; left: calc(50% - 150px); z-index: 3}
+	  		.rel{position: relative;}
+
+	  		.sec1{background:#100719;}
+	  		.sec2{background: linear-gradient(#0101DF,#100719,) fixed;}
+	  		.text{font-size:1em; line-height:2.7em; text-align: left;}
+	  		.cha{font-size:1.3em; color:#0000FF; text-decoration: underline; z-index:5; font-weight:border;}
+	  		.st{ position: absolute; left: 100px; top:350px;}
+	  		.js{ position: absolute; left: 290px; top:230px;}
+	  		.al{ position: absolute; left: 430px; top:330px;}
+	  		.gn{ position: absolute; left: 640px; top:300px;}
+	  		.jf{ position: absolute; left: 820px; top:360px;}
+
